@@ -1,0 +1,7 @@
+# Ignore the large local datasets
+Datasets/
+Models/
+
+# Ignore python cache and check-points
+__pycache__/
+.ipynb_checkpoints/
