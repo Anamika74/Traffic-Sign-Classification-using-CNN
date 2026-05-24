@@ -124,7 +124,6 @@ Direct deployment of European-trained traffic sign models fails catastrophically
 |---|---|
 | Dataset | Indian Traffic Signs |
 | Strategy | Fine-Tuning |
-| Learning Rate | $10^{-4}$ |
 | Result | 80.59% Accuracy |
 
 ### Key Insight
@@ -138,7 +137,6 @@ Transfer learning significantly improves cross-domain performance but still stru
 |---|---|
 | Dataset | Indian Traffic Signs |
 | Strategy | Native Training |
-| Learning Rate | $10^{-4}$ |
 | Result | **91.15% Test Accuracy** |
 
 ### Engineering Insight
@@ -265,7 +263,7 @@ pip install -r requirements.txt
 
 ---
 
-# ▶ Run Streamlit App
+#  Run Streamlit App
 
 ```bash
 streamlit run app/streamlit_app.py
